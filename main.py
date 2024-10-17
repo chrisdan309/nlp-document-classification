@@ -4,7 +4,6 @@ from models import (vectorize_tfidf, train_word2vec_models, average_word_vectors
                     calculate_ppmi, get_document_vectors_ppmi, train_classifiers)
 from evaluation import evaluate_model, cross_validate_model, perform_statistical_test
 from visualization import plot_f1_scores
-from utils import encode_labels
 from sklearn.decomposition import TruncatedSVD
 from sklearn.linear_model import LogisticRegression
 import numpy as np
